@@ -28,7 +28,7 @@ namespace ConsoleApplication1
       Console.WriteLine();
 
       // Использование цикла foreach для вычисления суммы элементов массива
-      double summ = 10;
+      double summ = 0;
       foreach (double item in A)
       {
         summ += item;
