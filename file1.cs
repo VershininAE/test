@@ -16,7 +16,7 @@ namespace ConsoleApplication1
       // заполнить массив случайными числами в диапазоне от 0 до 20
       for (int i = 0; i < A.Length; i++)
       {
-        A[i] = rnd_num.NextDouble() * 20;
+        A[i] = rnd_num.NextDouble() * 2000;
       }
 
       // вывести массив для проверки
